@@ -35,9 +35,9 @@ student1 = Student.new(classroom1, 16, 'Mike', parent_permission: true)
 student2 = Student.new(classroom2, 17, 'Jonas', parent_permission: true)
 
 # Verify that students belong to the correct classrooms
-puts "#{student1.name} #{student1.age} belongs to #{student1.classroom.label}" 
+puts "#{student1.name} #{student1.age} belongs to #{student1.classroom.label}"
 # Should display "Mike 16 belongs to Class 1"
-puts "#{student2.name} #{student2.age} belongs to #{student2.classroom.label}" 
+puts "#{student2.name} #{student2.age} belongs to #{student2.classroom.label}"
 # Should display "Jonas 17 belongs to Class 2"
 
 # Add students to classrooms
@@ -45,7 +45,7 @@ classroom1.add_student(student1)
 classroom2.add_student(student2)
 
 # Verify that students are now in the correct classrooms after manual addition
-puts "#{student1.name} #{student1.age} belongs to #{student1.classroom.label}" 
+puts "#{student1.name} #{student1.age} belongs to #{student1.classroom.label}"
 # Should display "Mike 16 belongs to Class 2"
 puts "#{student2.name} #{student2.age} belongs to #{student2.classroom.label}"
 
