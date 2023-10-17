@@ -1,15 +1,14 @@
-require_relative 'student'
-require_relative 'classroom'
-require_relative 'person'
-require_relative 'rental'
-require_relative 'book'
-require_relative 'teacher'
+require_relative '../person/student'
+require_relative '../person/classroom'
+require_relative '../person/person'
+require_relative '../rental/rental'
+require_relative '../book/book'
+require_relative '../person/teacher'
 
 class App
   def initialize
     @books = []
     @people = []
-    @books = []
     @rentals = []
   end
 

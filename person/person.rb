@@ -1,5 +1,5 @@
-require_relative 'nameable'
-require_relative 'rental'
+require_relative '../decorator/nameable'
+require_relative '../rental/rental'
 
 class Person < Nameable
   attr_accessor :name, :age
