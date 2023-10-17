@@ -1,4 +1,4 @@
-require_relative './app/interface'
+require_relative 'app/interface'
 
 def main
   Interface.new

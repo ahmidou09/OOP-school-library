@@ -5,15 +5,18 @@ class Interface
     puts '----Welcome to School Library App!----'
     display_menu
   end
+
   def display_menu
     loop do
       print_menu
       @option = gets.chomp.to_i
       break if @option == 7
+
       handle_option(@option)
     end
     handle_exit_option if @option == 7
   end
+
   def print_menu
     menu_options = "
 1 - List all books
@@ -26,6 +29,7 @@ class Interface
 "
     puts '', 'Please choose an option by entering a number:', menu_options
   end
+
   def handle_option(option)
     case option
     when 1
@@ -44,6 +48,7 @@ class Interface
       puts 'Invalid choice'
     end
   end
+
   def handle_exit_option
     puts 'Thank you for using this app!'
   end
