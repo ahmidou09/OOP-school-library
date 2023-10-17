@@ -1,5 +1,5 @@
-require_relative 'rental'
-require_relative 'person'
+require_relative '../rental/rental'
+require_relative '../person/person'
 
 class Book
   attr_accessor :title, :author
