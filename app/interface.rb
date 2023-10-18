@@ -1,4 +1,5 @@
 require_relative 'app'
+
 class Interface
   def initialize
     @app = App.new
@@ -50,6 +51,7 @@ class Interface
   end
 
   def handle_exit_option
+    @app.save_data
     puts 'Thank you for using this app!'
   end
 end
