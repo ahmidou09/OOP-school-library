@@ -67,7 +67,11 @@ Install this project with:
 
 ### Usage
 
-To run the project, execute the following steps:
+You can run this project just by typing in the terminal:
+
+```
+ruby main.rb
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,6 +82,12 @@ To run the project, execute the following steps:
 - GitHub: [@ahmidou09](https://github.com/ahmidou09)
 - Twitter: [@el_ahmidou](https://twitter.com/el_ahmidou)
 - LinkedIn: [el mehdi ahmidou](https://www.linkedin.com/in/el-mehdi-ahmidou-312590125/)
+
+👤 **Kazim Mohammadi**
+
+- GitHub: [@kazim110](https://github.com/kazim110)
+- Twitter: [@kazim471](https://twitter.com/kazim471)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kazim-mohammadi/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
