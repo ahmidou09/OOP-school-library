@@ -17,4 +17,8 @@ class Student < Person
     @classroom = classroom
     classroom.students.push(self)
   end
+
+  def to_s
+    "Student: Name - #{name}, Age - #{age}, Parent Permission - #{@parent_permission}"
+  end
 end

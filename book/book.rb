@@ -15,4 +15,8 @@ class Book
     rental = Rental.new(self, date, person)
     @rentals.push(rental)
   end
+
+  def to_s
+    "Book: Title - #{@title}, Author - #{@author}"
+  end
 end
