@@ -46,4 +46,10 @@ describe Person do
       expect(rental.date).to eq(date)
     end
   end
+
+  describe '#correct_name' do
+    it 'returns the correct name' do
+      expect(person.correct_name).to eq('John Doe')
+    end
+  end
 end
