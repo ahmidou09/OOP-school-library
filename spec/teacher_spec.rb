@@ -17,4 +17,10 @@ describe Teacher do
       expect(teacher.can_use_services?).to be(true)
     end
   end
+
+  describe '#to_s' do
+    it 'returns a string representation of the teacher' do
+      expect(teacher.to_s).to eq('Teacher: Name - Jane Doe, Age - 30, Specialization - Math')
+    end
+  end
 end

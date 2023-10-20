@@ -31,4 +31,10 @@ describe Student do
       expect(classroom.students).to include(student)
     end
   end
+
+  describe '#to_s' do
+    it 'returns a string representation of the student' do
+      expect(student.to_s).to eq('Student: Name - John Doe, Age - 15, Parent Permission - true')
+    end
+  end
 end
