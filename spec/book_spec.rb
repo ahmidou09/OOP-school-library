@@ -2,7 +2,7 @@ require 'date'
 require_relative '../book/book'
 
 describe Book do
-  let(:book) { Book.new('The World: A Family History', 'British historian Simon Sebag Montefiore') }
+  let(:book) { Book.new('The World: A Family History', 'British') }
   let(:person) { Person.new(55, 'Shashi Tharoor') }
 
   describe '#initialize' do
@@ -32,7 +32,7 @@ describe Book do
 
   describe '#to_s' do
     it 'returns a string representation of the book' do
-      expect(book.to_s).to eq('Book: Title - The World: A Family History, Author - British historian Simon Sebag Montefiore')
+      expect(book.to_s).to eq('Book: Title - The World: A Family History, Author - British')
     end
   end
 end
