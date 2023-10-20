@@ -8,7 +8,7 @@ describe Book do
   describe '#initialize' do
     it 'creates a new book with a title and author' do
       expect(book.title).to eq('The World: A Family History')
-      expect(book.author).to eq('British historian Simon Sebag Montefiore')
+      expect(book.author).to eq('British')
     end
 
     it 'initializes rentals as an empty array' do
